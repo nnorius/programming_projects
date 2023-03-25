@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="calculator.js"></script>
+  </head>
+
+
+  <body style="background-color:#dee2e6" !important;>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<!-- Navigation bar at top -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Majonge Restaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!-- Creates container to place components within -->
+<div class="container">
+  <div class="bg-dark p-2 text-white">
+
+    <div class="text-center">
+      <h1>Tip Calculator</h1>
+    </div>
+</div>
+
+
+<!-- User submitted form -->
+<form onsubmit="return false">
+  <div class="form-group" id="tipForm">
+
+    <!-- Enter bill entry -->
+    <label for="billAmount">Bill Amount</label>
+    <input type="bill" class="form-control" id="billAmount" aria-describedby="billHelp" placeholder="Enter bill amount in dollars">
+
+  <br>
+
+<!-- Select rating entry -->
+  <label for="rating">Select Rating</label>
+  <select class="form-select" id="rating">
+    <option>Rate your experience</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+  </select>
+
+  <br>
+
+<!-- Custom tip entry -->
+  <label for="customAmount">Custom Tip (Optional)</label>
+  <div class="row" id=customAmount>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="%" id="percentage">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="$0.00" id="amount">
+    </div>
+    <div id="infoBlock" class="form-text">
+    If both a custom percentage and a custom amount are entered your tip will be the two added together.
+    </div>
+  </div>
+
+  <br>
+
+  <!-- Hidden alert that appears if the entry is invalid -->
+  <div class="alert alert-dark" role="alert" id="invalidAlert" hidden="hidden">
+    Invalid Entry. Please enter the bill amount and select a rating.
+  </div>
+
+  <!-- Submit button that goes to check() function -->
+<button type="reset" class= "btn btn-dark" value="reset" onClick="return check()" />Submit
+
+</div>
+<!-- Result form, is hidden until the user form is submitted -->
+<div class="form-group bg-light m-3 p-3 border" id="tipResult" hidden="hidden">
+
+  <!-- Used columns for results so colons would line up -->
+<div class="row">
+  <div class="col">
+    <p class="fs-3 text-end fw-light fst-italic">Bill: </p>
+  </div>
+  <div class="col">
+    <p class="fs-3">$<span id="meal"></span></p>
+  </div>
+
+  <div class="w-100">
+  </div>
+  <div class="col">
+    <p class="fs-3 text-end fw-light fst-italic">Quality: </p>
+  </div>
+  <div class="col">
+    <p class="fs-3"><span id="quality"></span></p>
+  </div>
+
+  <div class="w-100">
+  </div>
+  <div class="col">
+    <p class="fs-3 text-end fw-light fst-italic">Tip: </p>
+  </div>
+  <div class="col">
+    <p class="fs-3">$<span id="tip"></span></p>
+  </div>
+
+<p class="text-center text-secondary fw-bold">________________________________________________</p>
+  <div class="w-100">
+  </div>
+  <div class="col">
+    <p class="fs-1 text-end fw-light fst-italic">Total: </p>
+  </div>
+  <div class="col">
+    <p class="fs-1">$<span id="total"></span></p>
+  </div>
+  
+</div>
+</div>
+
+</form>
+
+</div>
+
+
+  </body>
+</html>
