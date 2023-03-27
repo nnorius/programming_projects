@@ -7,15 +7,16 @@ graphics server. Black cells are of value 0 and are dead. White cells are value 
 
 The main program initializes a 2d automaton read from a file using a command line argument to specify the filepath. It creates a GUI on the graphics server and displays the automaton.
 
-Button Guide:
-STEP.  Exceutes one step of the CA and displays the result.
-RUN. Continulously runs (steps) the CA at a rate of approximately 1 step every 100 ms.  
-PAUSE.  If the CA is in the run mode, the CA will stop running.
-QUIT. Terminates and exits the program. 
-RESET. Sets the state of the CA back to the initial state when it was loaded
-LOAD.  Uses a “file browser” to select a file to load.
-CLEAR.  Sets all the cells to state 0.
-RANDOMIZE.  Sets the cells in the CA to random initial states.
+Button Guide:<br>
+STEP.  Exceutes one step of the CA and displays the result.<br>
+RUN. Continulously runs (steps) the CA at a rate of approximately 1 step every 100 ms.  <br>
+PAUSE.  If the CA is in the run mode, the CA will stop running.<br>
+QUIT. Terminates and exits the program. <br>
+RESET. Sets the state of the CA back to the initial state when it was loaded<br>
+LOAD.  Uses a “file browser” to select a file to load.<br>
+CLEAR.  Sets all the cells to state 0.<br>
+RANDOMIZE.  Sets the cells in the CA to random initial states.<br>
+1,2,3. changes size of automaton displayed with 1 being the largest.<br>
 
 Clicking a square in the display will change it to from it's value of 1 or 0 to the opposite, 0 or 1.
 
