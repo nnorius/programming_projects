@@ -1,0 +1,174 @@
+PROJECT 2, Part B
+
+SOURCE FILES
+
+CellularAutomaton.h             
+    contains prototypes for all CellularAutomaton class functions and variables as well as gameoflife() prototype outside of class
+
+CellularAutomaton.cpp
+    private class variables:
+        int wrap : always set to 1 for this program
+        unsigned char *ca : 2d array that holds cell states of 2dca
+        unsigned char quiescent : default cell state
+        int width : width 2dca read from file
+        int height : height 2dca read from file
+        int size : cell pixel size
+        int gap : size gap between cells
+        int sx : The number of pixels before ca screen is printed x (used to center image)
+        int sy : the number of pixels before ca screen is printed y (used to center image)
+
+GraphicsClient.h             
+    contains prototypes for all GraphicsClient class functions and variables
+
+GraphicsClient.cpp
+    private class variables: 
+        int sockfd : socket connection
+        string ip : ip address of connection
+        int port : port number of connection
+        bool run : true if run clicked
+        bool quit : true if quit clicked
+        int x : x coordinate of button click
+        int y : y coordinate of button click
+        int display : dimensions for display
+
+casimulator.cpp
+    Contains implementation of main(), gameoflife(), and detectButton() functions.
+
+
+FUNCTIONS
+
+GraphicsClient:
+    
+    GraphicsClient(string url, int portno) - Constructor, opens socket connection
+
+    GraphicsClient(const GraphicsClient &rhs) - Copy constructor, opens new connection to same place
+
+    ~GraphicsClient() - Destructor, closes socket connection
+
+    const GraphicsClient &operator = (const GraphicsClient &rhs) - assignment operator, closes connection and opens a new one to the same place
+
+    void setBackgroundColor(int red, int green, int blue) - sets the background color of the associated display. 
+        The parameters are the red, green and then blue values
+
+    void setDrawingColor(int red, int green, int blue) - set the color that objects will be drawn at until another setDrawingColor call is made
+
+    void clear() - clears the display to the background color
+    
+    void setPixel(int, int, int, int, int) - sets the pixel at the location given by the first two parameters to the color given by the last 
+        three parameters. The first two parameter are the location given by the x and then y coordinate. The last three parameters are the 
+        color given by red, green, and blue in that order.
+    
+    void drawRectangle(int x, int y, int width, int height) - draws a rectangle at the specified coordinates given by the first two parameters 
+        of the specified size given by the last two parameters. The first two parameters are the x and y coordinate in that order, and the 
+        last two parameters are the width and height, also given in that order.
+
+    void fillRectangle(int, int, int, int) - draws a filled rectangle at the position and size given by the parameters. 
+        The parameters are the same as the drawRectangle parameters.
+
+    void clearRectangle(int x, int y, int width, int height) - Sets pixels to background color at location and size specified by parameters.
+    
+    void drawOval(int, int, int, int) - Draw oval at specified location in inscribed in a rectangle of the specified size. Params same as draw 
+        rectangle
+    
+    void fillOval(int, int, int, int) - Draw filled oval at specified location in inscribed in a rectangle of the specified size.
+   
+    void drawLine(int, int, int, int) - draws a line starting a point 1 and ending at point 2. Point 1 is given by the first two parameters,
+        x and y, in that order, and point 2 is given by the last two parameters, x followed by y.
+
+    void drawstring(int, int, string) - draws a string of characters on the display given by the last parameter at 
+        the position given by the first two parameters, x, y, in that order. 
+
+    void repaint() - send the redraw (repaint) signal to the attached graphics server.
+
+    void loadGUI() - draw graphics server GUI
+
+    void requestFile() - request file from server
+
+    int getSockfd() - return sockfd
+
+    int interpretMessage(char buf[], int count) - interpret message from server. If button click set x and y and return button type. If file return 10. 
+        
+    int hexToInt(char val[]) - convert 4 hex bits to int and return
+
+    bool getRun() - check if stepCA is running
+
+    void setRun(bool isrunning) - set run variable
+
+    bool getQuit() - check if quit clicked
+
+    void setQuit(bool quitClicked) - set quit variable
+        
+    int getX() - get x click position
+
+    int getY() - get y click position
+
+    void setDisplyDim(int display); - set display to 600, 150, 40, or 0 if want default 
+
+    int getDisplay() - return display variable
+
+    string interpretFile(char buf[], int count) - convert hex of server message to string and return last file in filepath
+
+CellularAutomaton:
+
+    CellularAutomaton(string filename, int quiescent) - Constructor, initializes wrap to 1 and quiescent to specified parameter. Calls read2DCA.
+
+    CellularAutomaton(const CellularAutomaton &rhs) - copy constructor, makes a deep copy
+
+    ~CellularAutomaton() - Destructor, deletes class variable ca
+
+    const CellularAutomaton &operator = (const CellularAutomaton &rhs) - assignment operator, makes deep copy
+    
+    void step2DCA( unsigned char (*rule)(unsigned char*, int x, int y, int w, int h))A step function that takes arguments that are the 
+        x,y coordinates of cell; width, height of 2dca; and rule function. It calls the rule function and performs one step of the 2DCA.
+        step2DCA loops through all cells and sends the 2DCA to rule function with the index of the cell (x,y). The loop sets a 2d temp array 
+        corresponding position to the returned value from the rule function. Once all cells in temp array have been set temp arr is copied to 
+        2DCA array. This completes 1 step.
+
+    void display(GraphicsClient & cg) - display the 2DCA on the graphics window associated with the GraphicsClient object. 
+        The size of the cell displayed on the window is dependent on the size of the 2DCA width and height
+    
+    void read2DCA(string filepath) - initilizes 2dca and sets each cell to the state read from the inputted file. Parameter of filepath. 
+        This function opens and parses the file using fscanf in a loop. Calls create2DCA to initialize a new 2DCA. 
+        Each parsed character is sent to set2DCACell and the corresponding cell in 2DCA is set to that character.
+
+    void create2DCA( int w, int h) - dynamically creates a 2DCA with cell states initialized to 0
+    
+    void set2DCACell(unsigned int x, unsigned int y, unsigned char state) - set state of single cell of 2dca
+
+    void displayCA() - prints 2dca unsigned char array to stdout for testing in matrix format
+               
+    void resetCA() - reset ca to original state, i.e set ca variable equal to the origca variable
+
+    unsigned char * copyAutomaton(unsigned char *) - return deep copy of parameter ca
+
+    void initCA(int state) - initialize ca states to random 0,1 if -1, or indicated state otherwise
+            
+    unsigned char getCell(int i, int j) - return state of cell from ca at coordinates i,j
+
+    int getSize() - return size
+
+    int getGap() - return gap 
+    
+    int getsx() - return sx
+    
+    int getsy() - return sy
+    
+    int getwidth() - return width
+    
+    int getheight() - return height
+
+casimulator:
+
+    main() - Requires 2 command line arguments from user (see README). Creates a CellularAutomaton and GraphicsClient object. Reads 2dca from
+        file to CellularAutomaton and displays on graphics server with dead cells black and live cells white. Each time user presses STEP 
+        graphics server updates with next step of 2dca using Conway's Game of Life. RUN steps continuously. When user presses QUIT closes socket
+        and deletes both CellularAutomaton and GraphicsClient objects.
+          
+    unsigned char gameoflife(unsigned char* ca, int x, int y, int width, int height) - This rule loops through the surrounding 8 cells of the 
+        selected cell and tracks how many are 1 (alive). If selected cell is 1 with 2-3 alive neighbors it stays 1. If the cell is 0 with 
+        exactly 3 alive neighbors it becomes 1. All other alive cells change to 0 in next step. 
+
+    void detectButton(int x, int y, GraphicsClient & gc, CellularAutomaton & c) - decides what to do after button is clicked based off of x, y
+        coordinates of button click compared to location of buttons for button functions see README. For the first 600 x 600 pixels of GUI that
+        display the CA finds coordinate of 2d array element and changes the element to the opposite (1 or 0) of whatever it is, then displays. 
+        This toggles the cells. 
