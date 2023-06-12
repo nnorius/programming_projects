@@ -2,6 +2,8 @@
 
 SOURCE FILES
 
+GraphicsServerV2.jar - created by Prof. James Lathrop at ISU for this project
+
 CellularAutomaton.h             
     contains prototypes for all CellularAutomaton class functions and variables as well as gameoflife() prototype outside of class
 
