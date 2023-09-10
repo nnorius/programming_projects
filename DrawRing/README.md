@@ -1,5 +1,7 @@
 DrawRing
 
 
-https://github.com/nnorius/programming_projects/assets/128853412/208a6d69-02b9-44d2-a407-91887d62644d
+
+
+https://github.com/nnorius/programming_projects/assets/128853412/be101ae2-14d5-48fd-99a0-7ddaee1c929b
 
