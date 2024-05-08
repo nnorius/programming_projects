@@ -7,3 +7,7 @@ Space Race
 - Each time a hoop is missed it adds 1 minute to your time (final score)
 - Time starts when you go forward with your ship
 - the last hoop is the finish line, so time stops after you go through it
+
+
+https://github.com/nnorius/programming_projects/assets/128853412/a55c1025-6c5f-4dff-a850-bb76f6206095
+
