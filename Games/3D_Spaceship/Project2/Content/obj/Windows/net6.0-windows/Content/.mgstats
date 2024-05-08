@@ -1,0 +1,7 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/school/coms437/Project2/Project2/Content/File.spritefont","D:/school/coms437/Project2/Project2/Content/bin/Windows/Content/File.xnb","FontDescriptionProcessor","SpriteFontContent",2071,70687,0.2065174
+"D:/school/coms437/Project2/Project2/Content/Models/hoop8.dae","D:/school/coms437/Project2/Project2/Content/bin/Windows/Content/Models/hoop8.xnb","ModelProcessor","ModelContent",16014780,6214243,1.9606087
+"D:/school/coms437/Project2/Project2/Content/Models/marble_pw2.png","D:/school/coms437/Project2/Project2/Content/bin/Windows/Content/Models/marble_pw2_1.xnb","TextureProcessor","Texture2DContent",18467898,11184957,17.375557
+"D:/school/coms437/Project2/Project2/Content/Models/origship4.dae","D:/school/coms437/Project2/Project2/Content/bin/Windows/Content/Models/origship4.xnb","ModelProcessor","ModelContent",3678752,707985,0.3162418
+"D:/school/coms437/Project2/Project2/Content/Models/sky.png","D:/school/coms437/Project2/Project2/Content/bin/Windows/Content/Models/sky_0.xnb","TextureProcessor","Texture2DContent",512262,699189,0.7444809
+"D:/school/coms437/Project2/Project2/Content/Models/Skyb.dae","D:/school/coms437/Project2/Project2/Content/bin/Windows/Content/Models/Skyb.xnb","ModelProcessor","ModelContent",269653,142274,0.1951262

@@ -1,0 +1,17 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/isnou/source/repos/Project1/Project1/Content/aim.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/aim.xnb","TextureProcessor","Texture2DContent",1250,12185,0.1799322
+"C:/Users/isnou/source/repos/Project1/Project1/Content/ball_hole.mp3","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/ball_hole.xnb","SoundEffectProcessor","SoundEffectContent",43872,424229,0.2407749
+"C:/Users/isnou/source/repos/Project1/Project1/Content/ball_wall.mp3","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/ball_wall.xnb","SoundEffectProcessor","SoundEffectContent",2832,18725,0.256502
+"C:/Users/isnou/source/repos/Project1/Project1/Content/ball.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/ball.xnb","TextureProcessor","Texture2DContent",2342,8185,0.0020353
+"C:/Users/isnou/source/repos/Project1/Project1/Content/bg.PNG","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/bg.xnb","TextureProcessor","Texture2DContent",17458,3686485,0.2178187
+"C:/Users/isnou/source/repos/Project1/Project1/Content/corner.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/corner.xnb","TextureProcessor","Texture2DContent",3597,370157,0.2233479
+"C:/Users/isnou/source/repos/Project1/Project1/Content/downhill.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/downhill.xnb","TextureProcessor","Texture2DContent",14021,180085,0.1474402
+"C:/Users/isnou/source/repos/Project1/Project1/Content/End.spritefont","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/End.xnb","FontDescriptionProcessor","SpriteFontContent",2069,1053727,0.3168731
+"C:/Users/isnou/source/repos/Project1/Project1/Content/hill.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/hill.xnb","TextureProcessor","Texture2DContent",7891,107285,0.2058283
+"C:/Users/isnou/source/repos/Project1/Project1/Content/Hits.spritefont","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/Hits.xnb","FontDescriptionProcessor","SpriteFontContent",2068,70687,0.1410446
+"C:/Users/isnou/source/repos/Project1/Project1/Content/hitting_ball.mp3","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/hitting_ball.xnb","SoundEffectProcessor","SoundEffectContent",3312,14117,0.2497074
+"C:/Users/isnou/source/repos/Project1/Project1/Content/hole.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/hole.xnb","TextureProcessor","Texture2DContent",2660,14485,0.3060622
+"C:/Users/isnou/source/repos/Project1/Project1/Content/obstacle.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/obstacle.xnb","TextureProcessor","Texture2DContent",7076,117885,0.1256385
+"C:/Users/isnou/source/repos/Project1/Project1/Content/uphill.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/uphill.xnb","TextureProcessor","Texture2DContent",27541,180085,0.0094701
+"C:/Users/isnou/source/repos/Project1/Project1/Content/uphill2.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/uphill2.xnb","TextureProcessor","Texture2DContent",27604,184985,0.0075172
+"C:/Users/isnou/source/repos/Project1/Project1/Content/walls.png","C:/Users/isnou/source/repos/Project1/Project1/Content/bin/Windows/walls.xnb","TextureProcessor","Texture2DContent",15481,3686485,0.2478687

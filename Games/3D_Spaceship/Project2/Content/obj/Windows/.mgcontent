@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/school/coms437/Project2/Project2/Content/File.spritefont</File>
+    <File>D:/school/coms437/Project2/Project2/Content/Models/hoop8.dae</File>
+    <File>D:/school/coms437/Project2/Project2/Content/Models/marble_pw2.png</File>
+    <File>D:/school/coms437/Project2/Project2/Content/Models/origship4.dae</File>
+    <File>D:/school/coms437/Project2/Project2/Content/Models/sky.png</File>
+    <File>D:/school/coms437/Project2/Project2/Content/Models/Skyb.dae</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

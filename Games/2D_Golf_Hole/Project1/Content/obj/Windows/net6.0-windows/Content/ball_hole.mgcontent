@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>D:/school/coms437/Project1/Project1/Content/ball_hole.mp3</SourceFile>
+  <SourceTime>2024-02-15T21:02:48.6474548-06:00</SourceTime>
+  <DestFile>D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/ball_hole.xnb</DestFile>
+  <DestTime>2024-05-07T19:05:08.7684332-05:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T06:44:56-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

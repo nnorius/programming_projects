@@ -1,0 +1,17 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/school/coms437/Project1/Project1/Content/aim.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/aim.xnb","TextureProcessor","Texture2DContent",1250,12185,0.2074933
+"D:/school/coms437/Project1/Project1/Content/ball_hole.mp3","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/ball_hole.xnb","SoundEffectProcessor","SoundEffectContent",43872,424229,1.1628323
+"D:/school/coms437/Project1/Project1/Content/ball_wall.mp3","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/ball_wall.xnb","SoundEffectProcessor","SoundEffectContent",2832,18725,0.1366476
+"D:/school/coms437/Project1/Project1/Content/ball.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/ball.xnb","TextureProcessor","Texture2DContent",2342,8185,0.0064823
+"D:/school/coms437/Project1/Project1/Content/bg.PNG","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/bg.xnb","TextureProcessor","Texture2DContent",17458,3686485,0.2627176
+"D:/school/coms437/Project1/Project1/Content/corner.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/corner.xnb","TextureProcessor","Texture2DContent",3597,370157,0.0179542
+"D:/school/coms437/Project1/Project1/Content/downhill.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/downhill.xnb","TextureProcessor","Texture2DContent",14021,180085,0.0115
+"D:/school/coms437/Project1/Project1/Content/End.spritefont","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/End.xnb","FontDescriptionProcessor","SpriteFontContent",2069,1053727,0.4557157
+"D:/school/coms437/Project1/Project1/Content/hill.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/hill.xnb","TextureProcessor","Texture2DContent",7891,107285,0.0088502
+"D:/school/coms437/Project1/Project1/Content/Hits.spritefont","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/Hits.xnb","FontDescriptionProcessor","SpriteFontContent",2068,70687,0.0259031
+"D:/school/coms437/Project1/Project1/Content/hitting_ball.mp3","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/hitting_ball.xnb","SoundEffectProcessor","SoundEffectContent",3312,14117,0.1732944
+"D:/school/coms437/Project1/Project1/Content/hole.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/hole.xnb","TextureProcessor","Texture2DContent",2660,14485,0.0158432
+"D:/school/coms437/Project1/Project1/Content/obstacle.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/obstacle.xnb","TextureProcessor","Texture2DContent",7076,117885,0.0167512
+"D:/school/coms437/Project1/Project1/Content/uphill.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/uphill.xnb","TextureProcessor","Texture2DContent",27541,180085,0.0102143
+"D:/school/coms437/Project1/Project1/Content/uphill2.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/uphill2.xnb","TextureProcessor","Texture2DContent",27604,184985,0.0099488
+"D:/school/coms437/Project1/Project1/Content/walls.png","D:/school/coms437/Project1/Project1/Content/bin/Windows/Content/walls.xnb","TextureProcessor","Texture2DContent",15481,3686485,0.1128751
