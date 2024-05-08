@@ -10,3 +10,7 @@ FEATURES:
 - Once at least half of ball sprite intersects with hole game is over.
 
   
+
+
+https://github.com/nnorius/programming_projects/assets/128853412/5e936ae0-47b0-4aa5-acbc-70a4fd370874
+
