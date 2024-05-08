@@ -1,5 +1,4 @@
-Project 2 COMS 437 - Space Race
-Norfinn Norius
+Space Race
 
 - This project was implemented with Monogame and Bepu Physics Engine V1
 - use keys A D W S to apply an angular impulse to the ship and steer Left, Right, Up, Down
