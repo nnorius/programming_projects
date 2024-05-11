@@ -1,18 +1,18 @@
 BEAR SURVIVAL\
-Project 4 – Norfinn Norius
-Controls
-Toggle Dev Mode – F1
-Toggle Exit Game Menu – ESC
-Toggle Map - TAB
-Movement – WASD
-Jump – Space
-Run – Shift (held down while moving)
-Eat / Drink / Pickup – Left click
-Consume Magic Mushrooms – 1
-Consume Health Mushrooms – 2
-Consume Energy Mushrooms – 3
-
-Game
+\
+Controls\
+Toggle Dev Mode – F1\
+Toggle Exit Game Menu – ESC\
+Toggle Map - TAB\
+Movement – WASD\
+Jump – Space\
+Run – Shift (held down while moving)\
+Eat / Drink / Pickup – Left click\
+Consume Magic Mushrooms – 1\
+Consume Health Mushrooms – 2\
+Consume Energy Mushrooms – 3\
+\
+Game\
 You spawn on an island of bears surrounded by an ocean. Your goal is to get to the north west end of the island to a finish point. Anytime health, hunger, or thirst reaches 0 the player is respawned back at a random point. 
 -	Anytime the player enters the ocean they steadily lose health until they leave the ocean 
  
@@ -103,13 +103,13 @@ o	3. Fall back to sleep (Move to Sleep State, sense radius contracts)
   
 Flora
 MUSHROOMS
- Food – replenish from hunger
+ Food – replenish from hunger\
  ![image](https://github.com/nnorius/programming_projects/assets/128853412/091e9eab-2d65-431f-b941-e977f5977438)
 
 Inventory mushrooms – often located at base of Bonsai Trees. 
 Number in inventory shows up in top left of player screen
 Magic – Hit 1 to consume. Makes you undetectable and invisible to bears for 6 seconds
--	Screen has a blue tint while they are active
+-	Screen has a blue tint while they are active\
  ![image](https://github.com/nnorius/programming_projects/assets/128853412/c8ea6b48-ce9e-4c72-a0c1-e5d34366a223)
   
 Replenish Health – Hit 2 to consume
