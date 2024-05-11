@@ -21,7 +21,9 @@ You spawn on an island of bears surrounded by an ocean. Your goal is to get to t
 -	The finish point is marked by a particle effect that once you walk through takes you back to the main menu
   
 **Player** 
--	At start of game spawns to randomly selected position\
+-	At start of game spawns to randomly selected position
+
+
 ![Bear-Survival 5_11_2024 5_45_19 PM](https://github.com/nnorius/programming_projects/assets/128853412/bb948d09-7644-498d-9012-e2ba0b020f2b)
 
 Status Bar
