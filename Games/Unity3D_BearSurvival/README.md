@@ -29,20 +29,20 @@ Status Bar
     - Health does not recharge and if it reaches 0 player randomly respawns
 
 -	Hunger
-o	Depletes over time
-o	Food symbol appears on screen when hovering over edible mushrooms
-o	Left click eats plant (destroys gameobject) and replenishes health
+    o	Depletes over time
+    o	Food symbol appears on screen when hovering over edible mushrooms
+    o	Left click eats plant (destroys gameobject) and replenishes health
 
 -	Thirst
-o	Depletes over time
-o	Can only drink from fresh water (not ocean)
-o	A waterdrop symbol will appear when hovering over fresh water
-o	Left click to drink and replenish thirst
+    o	Depletes over time
+    o	Can only drink from fresh water (not ocean)
+    o	A waterdrop symbol will appear when hovering over fresh water
+    o	Left click to drink and replenish thirst
 
 -	Exhaustion
-o	Depletes while running
-o	Once zero can’t run
-o	Starts replenishing after 5 second cooldown
+    o	Depletes while running
+    o	Once zero can’t run
+    o	Starts replenishing after 5 second cooldown
 
 **Brown Bear**
 -	Spawns pink rocks when attacking
