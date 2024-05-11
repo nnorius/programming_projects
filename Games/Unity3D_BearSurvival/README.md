@@ -41,7 +41,9 @@ o	Starts replenishing after 5 second cooldown
 
 **Brown Bear**
 -	Spawns pink rocks when attacking\
+  
 Idle State
+
 -	Idles in one position
 -	If sees player move to Hostile State\
 Natural State
