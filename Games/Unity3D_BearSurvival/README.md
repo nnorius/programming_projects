@@ -28,7 +28,7 @@ You spawn on an island of bears surrounded by an ocean. Your goal is to get to t
 
 Map
 - There is a mini-map in the right top corner of the player overlay
-- The player can also toggle a large map of the entire island\
+- The player can also toggle a large map of the entire island showing their position as a blue triangle and the end point as a flag
 
 ![Bear-Survival 5_11_2024 5_48_02 PM](https://github.com/nnorius/programming_projects/assets/128853412/6b8f6c6f-b47a-4670-b94d-6b0e5799f840)
 
