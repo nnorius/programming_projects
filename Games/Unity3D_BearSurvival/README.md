@@ -129,9 +129,9 @@ MUSHROOMS\
  Food – replenish from hunger\
  ![image](https://github.com/nnorius/programming_projects/assets/128853412/091e9eab-2d65-431f-b941-e977f5977438)
 
-Inventory mushrooms – often located at base of Bonsai Trees\ 
-
-Number in inventory shows up in top left of player screen\
+Inventory mushrooms – often located at base of Bonsai Trees 
+- Number in inventory shows up in top left of player screen
+  
 Magic – Hit 1 to consume. Makes you undetectable and invisible to bears for 6 seconds
 -	Screen has a blue tint while they are active\
  ![image](https://github.com/nnorius/programming_projects/assets/128853412/c8ea6b48-ce9e-4c72-a0c1-e5d34366a223)
