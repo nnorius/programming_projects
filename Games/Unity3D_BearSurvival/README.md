@@ -119,9 +119,9 @@ Hostile State
 Natural State
 
 -	The bear will follow a behavior sequence of three actions
-    -	1. Wander to one random position
-    -	2. Idle for 10 seconds
-    -	3. Fall back to sleep (Move to Sleep State, sense radius contracts)
+    	1. Wander to one random position
+    	2. Idle for 10 seconds
+    	3. Fall back to sleep (Move to Sleep State, sense radius contracts)
 -	If at any time it senses the player again during this sequence it will move back to Hostile State
   
 **Flora**\
