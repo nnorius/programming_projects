@@ -55,9 +55,9 @@ Idle State
 Natural State
 
 -	Chooses randomly between three actions: 
-o	Wander: Choose a random point on Navmesh within radius and go to it
-o	Find water: Randomly choose water from an array of fresh water sources and go to it. Once sense water on ground stop and drink.
-o	Idle: idle in place for certain amount of seconds
+    -	Wander: Choose a random point on Navmesh within radius and go to it
+    -	Find water: Randomly choose water from an array of fresh water sources and go to it. Once sense water on ground stop and drink.
+    -	Idle: idle in place for certain amount of seconds
 -	Higher probability of choosing wander than find water or idle
 -	If see player at any point move to hostile state
   
@@ -89,9 +89,9 @@ Hostile State
 Natural State
 
 -	Chooses randomly between three actions: 
-o	Wander: Choose a random point on Navmesh within radius and go to it
-o	Find water: Randomly choose water from an array of fresh water sources and go to it. Once sense water on ground stop and drink.
-o	Idle: idle in place for certain amount of seconds
+    -	Wander: Choose a random point on Navmesh within radius and go to it
+    -	Find water: Randomly choose water from an array of fresh water sources and go to it. Once sense water on ground stop and drink.
+    -	Idle: idle in place for certain amount of seconds
 -	Higher probability of choosing wander than find water or idle
 -	If see player at any point move to hostile state
 -	If hear player run at any point charges towards position where they heard the player and move to hostile state
@@ -119,9 +119,9 @@ Hostile State
 Natural State
 
 -	The bear will follow a behavior sequence of three actions
-o	1. Wander to one random position
-o	2. Idle for 10 seconds
-o	3. Fall back to sleep (Move to Sleep State, sense radius contracts)
+    -	1. Wander to one random position
+    -	2. Idle for 10 seconds
+    -	3. Fall back to sleep (Move to Sleep State, sense radius contracts)
 -	If at any time it senses the player again during this sequence it will move back to Hostile State
   
 **Flora**\
