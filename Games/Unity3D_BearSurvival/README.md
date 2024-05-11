@@ -26,6 +26,13 @@ You spawn on an island of bears surrounded by an ocean. Your goal is to get to t
 
 ![Bear-Survival 5_11_2024 5_45_19 PM](https://github.com/nnorius/programming_projects/assets/128853412/bb948d09-7644-498d-9012-e2ba0b020f2b)
 
+Map
+- There is a mini-map in the right top corner of the player overlay
+- The player can also toggle a large map of the entire island\
+
+![Bear-Survival 5_11_2024 5_48_02 PM](https://github.com/nnorius/programming_projects/assets/128853412/6b8f6c6f-b47a-4670-b94d-6b0e5799f840)
+
+  
 Status Bar
 
 -	Health
