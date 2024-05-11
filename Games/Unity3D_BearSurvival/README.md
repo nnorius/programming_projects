@@ -1,6 +1,6 @@
 BEAR SURVIVAL\
 \
-Controls\
+**Controls**\
 Toggle Dev Mode – F1\
 Toggle Exit Game Menu – ESC\
 Toggle Map - TAB\
@@ -12,15 +12,15 @@ Consume Magic Mushrooms – 1\
 Consume Health Mushrooms – 2\
 Consume Energy Mushrooms – 3\
 \
-Game\
+**Game**\
 You spawn on an island of bears surrounded by an ocean. Your goal is to get to the north west end of the island to a finish point. Anytime health, hunger, or thirst reaches 0 the player is respawned back at a random point. 
 -	Anytime the player enters the ocean they steadily lose health until they leave the ocean 
  
-Finish
+**Finish**
 -	There is an arch before the finish point that you cannot pass through unless you have collected 5 of each of the 3 rocks the bears drop
 -	The finish point is marked by a particle effect that once you walk through takes you back to the main menu
   
-Player 
+**Player** 
 -	At start of game spawns to randomly selected position
 Status Bar
 -	Health
@@ -39,7 +39,7 @@ o	Depletes while running
 o	Once zero can’t run
 o	Starts replenishing after 5 second cooldown
 
-Brown Bear
+**Brown Bear**
 -	Spawns pink rocks when attacking
 Idle State
 -	Idles in one position
@@ -58,7 +58,7 @@ Hostile State
 -	After attack bear circles away and then charges player again
 -	If it cannot see player it will go to the last place it saw the player, then give up and move to Natural State if it still doesn’t see player
 
-Black Bear
+**Black Bear**
 -	Can hear player if they run within 100 units 
 -	Spawns red rocks when attack is triggered
 Idle State
@@ -79,7 +79,7 @@ o	Idle: idle in place for certain amount of seconds
 -	If see player at any point move to hostile state
 -	If hear player run at any point charges towards position where they heard the player and move to hostile state
   
-White Bear
+**White Bear**
 -	Spawns a blue rock when goes to sleep, so need to get the bear to move to retrieve it
 -	This bear has keen senses and will sense the player within a certain radius even if they are behind an object
 -	The sense radius is bigger when the bear is not sleeping
@@ -101,8 +101,8 @@ o	2. Idle for 10 seconds
 o	3. Fall back to sleep (Move to Sleep State, sense radius contracts)
 -	If at any time it senses the player again during this sequence it will move back to Hostile State
   
-Flora
-MUSHROOMS
+**Flora**\
+MUSHROOMS\
  Food – replenish from hunger\
  ![image](https://github.com/nnorius/programming_projects/assets/128853412/091e9eab-2d65-431f-b941-e977f5977438)
 
@@ -112,18 +112,19 @@ Magic – Hit 1 to consume. Makes you undetectable and invisible to bears for 6 
 -	Screen has a blue tint while they are active\
  ![image](https://github.com/nnorius/programming_projects/assets/128853412/c8ea6b48-ce9e-4c72-a0c1-e5d34366a223)
   
-Replenish Health – Hit 2 to consume
- 
- Restore full energy – Hit 3 to consume
- 
-TREES
-Bonsai – look for inventory mushrooms at base
- 
+Replenish Health – Hit 2 to consume\
+ ![image](https://github.com/nnorius/programming_projects/assets/128853412/ef1a5316-e74f-430e-a4cc-0b45c9157714)
 
-Oak – only grows near water
- 
+Restore full energy – Hit 3 to consume\
+ ![image](https://github.com/nnorius/programming_projects/assets/128853412/79f6bf24-ae06-4ed6-baf8-1a9bb4666af6)
 
-Dev Notes
--	In order for Navmesh to include trees as non-walkable areas they have to be manually placed individually as prefabs, you can’t use the terrain brush. Ideally need to find a faster way so can mass generate trees.
--	Navmesh agents (bears) walk through each other. Apparently adding a Navmesh obstacle to a Navmesh agent is a bad idea though
--	Need to add fall damage
+TREES\
+Bonsai – look for inventory mushrooms at base\
+ ![image](https://github.com/nnorius/programming_projects/assets/128853412/ef92d744-45d1-4cbc-a491-975a381ad9d5)
+
+
+Oak – only grows near water\
+ ![image](https://github.com/nnorius/programming_projects/assets/128853412/58aae5e7-7c41-4e98-b975-87b2a76b1e2c)
+
+
+
