@@ -26,7 +26,7 @@ You spawn on an island of bears surrounded by an ocean. Your goal is to get to t
 Status Bar
 
 -	Health
-o	Health does not recharge and if it reaches 0 player randomly respawns
+ - Health does not recharge and if it reaches 0 player randomly respawns
 
 -	Hunger
 o	Depletes over time
