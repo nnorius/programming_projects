@@ -41,17 +41,17 @@ o	Starts replenishing after 5 second cooldown
 
 **Brown Bear**
 -	Spawns pink rocks when attacking\
-Idle State\
+Idle State
 -	Idles in one position
 -	If sees player move to Hostile State\
-Natural State\
+Natural State
 -	Chooses randomly between three actions: 
 o	Wander: Choose a random point on Navmesh within radius and go to it
 o	Find water: Randomly choose water from an array of fresh water sources and go to it. Once sense water on ground stop and drink.
 o	Idle: idle in place for certain amount of seconds
 -	Higher probability of choosing wander than find water or idle
 -	If see player at any point move to hostile state\
-Hostile State\
+Hostile State
 -	Charges player
 -	Once player in range select one random attack: Swipe Left, Swipe Right, or Bite
 -	10 damage if player hit
@@ -61,16 +61,16 @@ Hostile State\
 **Black Bear**
 -	Can hear player if they run within 100 units 
 -	Spawns red rocks when attack is triggered\
-Idle State\
+Idle State
 -	Idles in one position
 -	If sees player move to Hostile State\
-Hostile State\
+Hostile State
 -	Will charge straight for player
 -	Once player in range has lunge attack where it rears back and then pounds both front feet into the ground in front
 -	20 damage if hits player. The player has 0.3 seconds to move out of box collider after bear attack is triggered or will get hit.
 -	After lunging the bear roars and then stands still for a few seconds to cooldown
 -	It will charge for the player position after attack cooldown but if it doesn’t see the player by the time it gets there will move to natural state\
-Natural State\
+Natural State
 -	Chooses randomly between three actions: 
 o	Wander: Choose a random point on Navmesh within radius and go to it
 o	Find water: Randomly choose water from an array of fresh water sources and go to it. Once sense water on ground stop and drink.
@@ -84,17 +84,17 @@ o	Idle: idle in place for certain amount of seconds
 -	This bear has keen senses and will sense the player within a certain radius even if they are behind an object
 -	The sense radius is bigger when the bear is not sleeping
 -	This bear is slow and never runs\
-Sleep State\
+Sleep State
 -	Bear always starts out sleeping
 -	It will sense the player within a certain radius and wake up moving to Hostile State\
-Hostile State\
+Hostile State
 -	The bear’s sense radius expands
 -	The bear will follow the player at a walk if within sense radius even behind objects
 -	Every few seconds it will shoot a light beam forward
 -	If the beam hits the player it freezes the player for 5 seconds
 -	If the bear gets close enough to touch the player the player is respawned at a random point. Stats are not affected.
 -	If the bear cannot sense the player it will move to Natural State\
-Natural State\
+Natural State
 -	The bear will follow a behavior sequence of three actions
 o	1. Wander to one random position
 o	2. Idle for 10 seconds
