@@ -50,7 +50,9 @@ Status Bar
 **Brown Bear**\
 ![image](https://github.com/nnorius/programming_projects/assets/128853412/381788c7-73d5-48c7-86a4-6893217a1b6f)
 
--	Spawns pink rocks when attacking
+-	Spawns pink rocks when attacking\
+  ![image](https://github.com/nnorius/programming_projects/assets/128853412/ba4f0faa-b2ad-4e37-8616-c28c212b8195)
+
   
 Idle State
 
@@ -78,7 +80,9 @@ Hostile State
 ![image](https://github.com/nnorius/programming_projects/assets/128853412/f6df156e-4d89-4cc9-ba9c-6c946c5ea144)
 
 -	Can hear player if they run within 100 units 
--	Spawns red rocks when attack is triggered
+-	Spawns red rocks when attack is triggered\
+![image](https://github.com/nnorius/programming_projects/assets/128853412/354c94bf-4ac1-4fe1-abcc-7716c8b5b10f)
+
   
 Idle State
 
@@ -106,7 +110,9 @@ Natural State
 **White Bear**\
 ![image](https://github.com/nnorius/programming_projects/assets/128853412/d6b04ee3-d4bd-44f2-8af7-99773784c073)
 
--	Spawns a blue rock when goes to sleep, so need to get the bear to move to retrieve it
+-	Spawns a blue rock when goes to sleep, so need to get the bear to move to retrieve it\
+  ![image](https://github.com/nnorius/programming_projects/assets/128853412/3c0d4374-352e-4166-8f43-e9ca50a77617)
+
 -	This bear has keen senses and will sense the player within a certain radius even if they are behind an object
 -	The sense radius is bigger when the bear is not sleeping
 -	This bear is slow and never runs
