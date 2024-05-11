@@ -22,18 +22,23 @@ You spawn on an island of bears surrounded by an ocean. Your goal is to get to t
   
 **Player** 
 -	At start of game spawns to randomly selected position
+  
 Status Bar
+
 -	Health
 o	Health does not recharge and if it reaches 0 player randomly respawns
+
 -	Hunger
 o	Depletes over time
 o	Food symbol appears on screen when hovering over edible mushrooms
 o	Left click eats plant (destroys gameobject) and replenishes health
+
 -	Thirst
 o	Depletes over time
 o	Can only drink from fresh water (not ocean)
 o	A waterdrop symbol will appear when hovering over fresh water
 o	Left click to drink and replenish thirst
+
 -	Exhaustion
 o	Depletes while running
 o	Once zero can’t run
