@@ -44,7 +44,9 @@ Status Bar
     -	Once zero can’t run
     -	Starts replenishing after 5 second cooldown
 
-**Brown Bear**
+**Brown Bear**\
+![image](https://github.com/nnorius/programming_projects/assets/128853412/381788c7-73d5-48c7-86a4-6893217a1b6f)
+
 -	Spawns pink rocks when attacking
   
 Idle State
@@ -69,7 +71,9 @@ Hostile State
 -	After attack bear circles away and then charges player again
 -	If it cannot see player it will go to the last place it saw the player, then give up and move to Natural State if it still doesn’t see player
 
-**Black Bear**
+**Black Bear**\
+![image](https://github.com/nnorius/programming_projects/assets/128853412/f6df156e-4d89-4cc9-ba9c-6c946c5ea144)
+
 -	Can hear player if they run within 100 units 
 -	Spawns red rocks when attack is triggered
   
@@ -96,7 +100,9 @@ Natural State
 -	If see player at any point move to hostile state
 -	If hear player run at any point charges towards position where they heard the player and move to hostile state
   
-**White Bear**
+**White Bear**\
+![image](https://github.com/nnorius/programming_projects/assets/128853412/d6b04ee3-d4bd-44f2-8af7-99773784c073)
+
 -	Spawns a blue rock when goes to sleep, so need to get the bear to move to retrieve it
 -	This bear has keen senses and will sense the player within a certain radius even if they are behind an object
 -	The sense radius is bigger when the bear is not sleeping
